@@ -8,13 +8,13 @@ Project: Project 3
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>HANGMAN</title>
+	<title>Hangman</title>
 	
 	<!--<link rel="stylesheet" href="css/main.css" type="text/css">-->
 	<link rel="stylesheet" href="styles.css" type="text/css">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 	
 </head>
 
@@ -40,46 +40,42 @@ Project: Project 3
 				Difficulty: 
 				<select name='difficulty' id='difficulty'>
 					<option value='easy'>Easy</option>
-					<option value='medium'>Medium</option>
 					<option value='hard'>Hard</option>
 				</select>
-				<button type='submit'>New Game</button><br><br>
-				Word: <br><br>
+				<button type='submit' id="new-game">New Game</button><br><br>
+				<p id="word">Word:  </p><br>
 				Guess: <br><br>
 				Misses: <br><br>
 			</div>
 
 			<div id='keyboard'>
 			<p>Choose a letter.</p><br>
-				<button>A</button>
-				<button>B</button>
-				<button>C</button>
-				<button>D</button>
-				<button>E</button>
-				<button>F</button>
-				<button>G</button>
-				<button>H</button>
-				<button>I</button>
-				<button>J</button>
-				<button>K</button>
-				<button>L</button>
-				<button>M</button>
-				<button>N</button>
-				<button>O</button>
-				<button>P</button>
-				<button>Q</button>
-				<button>R</button>
-				<button>S</button>
-				<button>T</button>
-				<button>U</button>
-				<button>V</button>
-				<button>W</button>
-				<button>X</button>
-				<button>Y</button>
-				<button>Z</button>
-
-
-
+				<button id='a' class='alphabet'>A</button>
+				<button id='b' class='alphabet'>B</button>
+				<button id='c' class='alphabet'>C</button>
+				<button id='d' class='alphabet'>D</button>
+				<button id='e' class='alphabet'>E</button>
+				<button id='f' class='alphabet'>F</button>
+				<button id='g' class='alphabet'>G</button>
+				<button id='h' class='alphabet'>H</button>
+				<button id='i' class='alphabet'>I</button>
+				<button id='j' class='alphabet'>J</button>
+				<button id='k' class='alphabet'>K</button>
+				<button id='l' class='alphabet'>L</button>
+				<button id='m' class='alphabet'>M</button>
+				<button id='n' class='alphabet'>N</button>
+				<button id='o' class='alphabet'>O</button>
+				<button id='p' class='alphabet'>P</button>
+				<button id='q' class='alphabet'>Q</button>
+				<button id='r' class='alphabet'>R</button>
+				<button id='s' class='alphabet'>S</button>
+				<button id='t' class='alphabet'>T</button>
+				<button id='u' class='alphabet'>U</button>
+				<button id='v' class='alphabet'>V</button>
+				<button id='w' class='alphabet'>W</button>
+				<button id='x' class='alphabet'>X</button>
+				<button id='y' class='alphabet'>Y</button>
+				<button id='z' class='alphabet'>Z</button>
 			</div>
 		</div>
 
@@ -94,7 +90,7 @@ Project: Project 3
 	<input type='button' id='new-game' value='New Game'>
 	<input type='button' id='show-solution' value='Show Solution'>
 	-->
-<!--<script src="js/"></script>-->
+<script src="javascript.js"></script>
 	
 </body>
 

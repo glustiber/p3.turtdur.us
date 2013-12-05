@@ -63,8 +63,38 @@ body {
 #game-menu {
 	padding:15px;
 	width:300px;
-	height:160px;
+	height:20px;
 	border-bottom:1px solid black;
+}
+
+#difficulty {
+	width:150px;
+}
+
+#new-game {
+	float:right;
+}
+
+#game-progress {
+	padding:15px;
+	width:300px;
+	height:100px;
+	border-bottom:1px solid black;
+	display:none;
+}
+
+#word {
+	width:270px;
+}
+
+.incorrect {
+	color:red;
+	font-weight:bold;
+}
+
+.correct {
+	color:green;
+	font-weight:bold;
 }
 
 #keyboard {
@@ -79,6 +109,19 @@ body {
 	height:25px;
 	border:1px solid black;
 	cursor:pointer;
+	margin:2px;
+	font-size:16px;
+
+}
+
+.alphabet:hover {
+	background-color:white;
+}
+
+.letter-in-ans {
+	width:20px;
+	height:20px;
+	border:1px solid black;
 	margin:2px;
 }
 

@@ -43,9 +43,12 @@ Project: Project 3
 					<option value='hard'>Hard</option>
 				</select>
 				<button type='submit' id="new-game">New Game</button><br><br>
+			</div>	
+
+			<div id='game-progress'>
 				<p id="word">Word:  </p><br>
-				Guess: <br><br>
-				Misses: <br><br>
+				<p id="guess">Guess: </p><br>
+				<p id="miss">Misses: </p><br>
 			</div>
 
 			<div id='keyboard'>

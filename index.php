@@ -23,6 +23,15 @@ Project: Project 3
 
 	<div id='hangman'>
 
+		<div id='you-lose'>
+			<h1>YOU LOSE!</h1><br>
+			<p>Would you like to play again?</p><br>
+			<button id='yes' class='newgame'>Yes</button>
+			<button id='no' class='newgame'>No</button>
+
+
+		</div>
+
 		<div id='inner-top'>
 			<p class='title'>Hangman</p>
 		</div>

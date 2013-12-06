@@ -15,6 +15,21 @@ body {
 	border:1px solid black;
 }
 
+#you-lose {
+	position:absolute;
+	width:600px;
+	height:400px;
+	background-color:white;
+	z-index:1;
+	text-align:center;
+	display:none;
+}
+
+#you-lose > h1 {
+	margin:25px;
+	font-size:25px;
+}
+
 #inner-top {
 	position:absolute;
 	width:600px;
@@ -115,7 +130,8 @@ body {
 }
 
 .alphabet:hover {
-	background-color:white;
+	font-weight:bold;
+	text-decoration:underline;
 }
 
 .letter-in-ans {

@@ -11,6 +11,9 @@ var clickedLetters = [];
 
 $('#new-game').click(function() {
 
+	$('.alphabet-disabled').attr('class','alphabet');
+	$('.alphabet').removeAttr('disabled');
+
 	$('#word').html("Word:  ");
 	$('#guess').html("Guess:  ");
 	$('#miss').html("Misses:  ");
@@ -45,6 +48,9 @@ $('#new-game').click(function() {
 });
 
 $('.alphabet').click(function() {
+
+	$(this).attr('disabled','disabled');
+	$(this).attr('class','alphabet-disabled');
 
 	//var clicked_letter_id = $(this).attr('id');
 	var clicked_letter = $(this).html();

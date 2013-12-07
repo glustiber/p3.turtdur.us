@@ -152,6 +152,14 @@ body {
 	text-decoration:underline;
 }
 
+.alphabet-disabled {
+	width:25px;
+	height:25px;
+	border:1px solid black;
+	margin:2px;
+	font-size:16px;
+}
+
 .letter-in-ans {
 	width:20px;
 	height:20px;

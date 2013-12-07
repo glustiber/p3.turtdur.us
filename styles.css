@@ -4,6 +4,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 body {
 	position:relative;
 	height:500px;
+	background-color:#CCCCCC;
 }
 
 #hangman {
@@ -13,9 +14,11 @@ body {
 	margin:0px auto;
 	margin-top:50px!important;
 	border:1px solid black;
+	background-color:white;
+	box-shadow: 0 2px 2px -2px black;
 }
 
-#you-lose {
+#end-of-game {
 	position:absolute;
 	width:600px;
 	height:400px;
@@ -23,11 +26,12 @@ body {
 	z-index:1;
 	text-align:center;
 	display:none;
+	cursor:pointer;
 }
 
-#you-lose > h1 {
-	margin:25px;
-	font-size:25px;
+#end-of-game > h1 {
+	margin:50px;
+	font-size:50px;
 }
 
 #inner-top {
@@ -47,7 +51,7 @@ body {
 }
 
 .instructions {
-	margin:5px;
+	margin: 50px 25px;
 	text-align:center;
 }
 
@@ -80,14 +84,16 @@ body {
 	width:300px;
 	height:20px;
 	border-bottom:1px solid black;
+	font-size:18px;
 }
 
 #difficulty {
-	width:150px;
+	width:135px;
 }
 
 #new-game {
 	float:right;
+	cursor:pointer;
 }
 
 #game-progress {
@@ -100,16 +106,29 @@ body {
 
 #word {
 	width:270px;
+	font-size:18px;
+}
+
+#guess {
+	font-size:18px;
+}
+
+#miss {
+	font-size:18px;
 }
 
 .incorrect {
 	color:red;
 	font-weight:bold;
+	float:right;
+	font-size:18px;
 }
 
 .correct {
 	color:green;
 	font-weight:bold;
+	float:right;
+	font-size:18px;
 }
 
 #keyboard {
@@ -126,7 +145,6 @@ body {
 	cursor:pointer;
 	margin:2px;
 	font-size:16px;
-
 }
 
 .alphabet:hover {

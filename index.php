@@ -23,12 +23,9 @@ Project: Project 3
 
 	<div id='hangman'>
 
-		<div id='you-lose'>
-			<h1>YOU LOSE!</h1><br>
-			<p>Would you like to play again?</p><br>
-			<button id='yes' class='newgame'>Yes</button>
-			<button id='no' class='newgame'>No</button>
-
+		<div id='end-of-game'>
+			<h1 class='result'></h1><br>
+			<p>Click inside the box to play again.</p><br>
 
 		</div>
 
@@ -39,7 +36,7 @@ Project: Project 3
 		<div id='inner-left'>
 
 			<div id='hanging-man'>
-				<p class='instructions'>Choose a difficulty level and click 'New Game' to start playing.</p>
+				<p class='instructions'>Select a difficulty and click 'New Game' to start playing.</p>
 			</div>
 
 		</div>

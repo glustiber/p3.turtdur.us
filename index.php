@@ -10,7 +10,6 @@ Project: Project 3
 	<meta charset="UTF-8">
 	<title>Hangman</title>
 	
-	<!--<link rel="stylesheet" href="css/main.css" type="text/css">-->
 	<link rel="stylesheet" href="styles.css" type="text/css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -25,7 +24,8 @@ Project: Project 3
 
 		<div id='end-of-game'>
 			<h1 class='result'></h1><br>
-			<p>Click inside the box to play again.</p><br>
+			<p class='disp-answer'></p><br>
+			<button type='submit' id="play-again">New Game</button><br><br>
 
 		</div>
 
@@ -90,15 +90,6 @@ Project: Project 3
 
 	</div>
 
-<!--	Difficulty: 
-	<select>
-		<option name='difficulty' id='easy' value='easy'>Easy</option>
-		<option name='difficulty' id='medium' value='medium'>Medium</option>
-		<option name='difficulty' id='hard' value='hard'>Hard</option>
-	</select><br>
-	<input type='button' id='new-game' value='New Game'>
-	<input type='button' id='show-solution' value='Show Solution'>
-	-->
 <script src="javascript.js"></script>
 	
 </body>
